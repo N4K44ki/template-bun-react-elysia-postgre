@@ -1,6 +1,6 @@
 # Bun + React + Elysia + PostgreSQL (Docker Compose)
 
-Bun 中心の最小構成です。
+Bun 中心でTypescriptでwebアプリを作成する際の最小構成(データベース込み)です。
 
 - frontend: Bun + React
 - backend: Bun + Elysia
