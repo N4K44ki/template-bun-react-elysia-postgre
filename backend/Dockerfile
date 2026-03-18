@@ -6,5 +6,4 @@ RUN bun install
 
 COPY . .
 
-EXPOSE 4000
 CMD ["bun", "--watch", "src/index.ts"]

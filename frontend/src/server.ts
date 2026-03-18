@@ -8,7 +8,7 @@ import index from "./index.html";
  */
 // フロントエンドのポート番号を環境変数から取得
 const port = Number(process.env.FRONTEND_PORT);
-// backend コンテナの URL (例: "http://backend:3000") を環境変数から取得
+// backend コンテナの URL (例: "http://backend:3001") を環境変数から取得
 const apiOrigin = process.env.API_ORIGIN; 
 
 /**
