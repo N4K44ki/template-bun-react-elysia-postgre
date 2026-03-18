@@ -35,17 +35,9 @@ docker compose up --build
 
 ## 動作確認
 
-- Frontend: http://localhost:3000
-- Health: http://localhost:3000/api/health
-- Users API: http://localhost:3000/api/users
-
-## DB 接続情報
-
-- host: `localhost`
-- port: `5432`
-- database: `appdb`
-- user: `app`
-- password: `password`
+- Frontend: http://localhost:3001
+- Health: http://localhost:3001/api/health
+- Users API: http://localhost:3001/api/users
 
 ## 主要ポイント
 
