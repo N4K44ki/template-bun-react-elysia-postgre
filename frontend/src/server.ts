@@ -7,9 +7,9 @@ import index from "./index.html";
  * `/api/*` へのリクエストを backend コンテナへ中継する。
  */
 // フロントエンドのポート番号を環境変数から取得
-const port = Number(process.env.FRONTEND_PORT);
+const port = Number(Bun.env.FRONTEND_PORT);
 // backend コンテナの URL (例: "http://backend:3001") を環境変数から取得
-const apiOrigin = process.env.API_ORIGIN; 
+const apiOrigin = Bun.env.API_ORIGIN; 
 
 /**
  * 受け取ったリクエストを backend 側の指定パスへ転送する。
