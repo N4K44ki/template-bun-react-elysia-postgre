@@ -9,8 +9,8 @@ const user = readSecret("/run/secrets/db_user");
 const password = readSecret("/run/secrets/db_password");
 const database = readSecret("/run/secrets/db_name");
 
-const host = process.env.PGHOST;
-const port = process.env.PGPORT;
+const host = Bun.env.PGHOST;
+const port = Bun.env.PGPORT;
 
 const databaseUrl =
   `postgresql://${encodeURIComponent(user)}:${encodeURIComponent(password)}` +
